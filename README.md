@@ -15,10 +15,15 @@
 <br><br>
 
 <a href="https://github.com/aditya-ac2006/CMM"><img src="./assets/button-project.svg" height="48" alt="View CMM"></a>&nbsp;
-<a href="YOUR_LINKEDIN_URL"><img src="./assets/button-linkedin.svg" height="48" alt="LinkedIn"></a>&nbsp;
-<a href="#"><img src="./assets/button-portfolio.svg" height="48" alt="Portfolio coming soon"></a>
+<a href="https://github.com/aditya-ac2006/aditya-ac2006.git"><img src="./assets/button-linkedin.svg" height="48" alt="LinkedIn"></a>&nbsp;
+
+<a href="https://aditya-builds.aditya-ac2006.chatgpt.site/#"><img src="./assets/button-portfolio.svg" height="48" alt="Portfolio"></a>&nbsp;
 
 </div>
+
+<img src="./assets/formula-student-car.svg"
+     width="100%"
+     alt="Formula Student race car">
 
 <br>
 
@@ -69,6 +74,6 @@ I'm open to conversations around software engineering, fintech, Formula Student,
 
 <br><br>
 
-<sub>Building carefully. Learning continuously. Shipping the work.</sub>
+<sub>You either die a hero or you live long enough to see yourself become the villain</sub>
 
 </div>

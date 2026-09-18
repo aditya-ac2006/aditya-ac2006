@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="500" viewBox="0 0 1400 500" role="img" aria-labelledby="title desc">
+  <title id="title">Formula Student race car side profile</title>
+  <desc id="desc">Detailed vector illustration of a Formula Student open-wheel race car with wings, suspension, floor, sidepod, cockpit, halo, wheels and diffuser.</desc>
+
+  <defs>
+    <linearGradient id="bodyRed" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF3049"/>
+      <stop offset=".55" stop-color="#F04432"/>
+      <stop offset="1" stop-color="#FF7A38"/>
+    </linearGradient>
+    <linearGradient id="bodyDark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#242933"/>
+      <stop offset=".48" stop-color="#11151C"/>
+      <stop offset="1" stop-color="#080B10"/>
+    </linearGradient>
+    <linearGradient id="carbon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#303640"/>
+      <stop offset=".5" stop-color="#12161C"/>
+      <stop offset="1" stop-color="#05070A"/>
+    </linearGradient>
+    <radialGradient id="tire" cx=".38" cy=".28" r=".78">
+      <stop offset="0" stop-color="#343A44"/>
+      <stop offset=".45" stop-color="#171B21"/>
+      <stop offset="1" stop-color="#050608"/>
+    </radialGradient>
+    <radialGradient id="rim" cx=".4" cy=".35" r=".75">
+      <stop offset="0" stop-color="#E7EBEF"/>
+      <stop offset=".38" stop-color="#8B949F"/>
+      <stop offset="1" stop-color="#343A43"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#94E8FF" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#132738" stop-opacity=".92"/>
+    </linearGradient>
+    <pattern id="weave" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="6" height="12" fill="#FFFFFF" opacity=".025"/>
+    </pattern>
+    <filter id="shadow" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Ground shadow -->
+  <ellipse cx="714" cy="418" rx="600" ry="25" fill="#000000" opacity=".32" filter="url(#shadow)"/>
+
+  <!-- Rear wing assembly -->
+  <g>
+    <path d="M1183 130H1350L1366 151H1172Z" fill="url(#bodyDark)" stroke="#59616D" stroke-width="3"/>
+    <path d="M1195 157H1360L1350 178H1185Z" fill="url(#bodyRed)"/>
+    <path d="M1208 178H1348L1339 193H1198Z" fill="#11151B" stroke="#343B46" stroke-width="2"/>
+    <path d="M1217 190L1198 310M1331 190L1304 306" fill="none" stroke="#292F38" stroke-width="10"/>
+    <path d="M1223 195L1208 305M1325 195L1296 302" fill="none" stroke="#8B939D" stroke-width="2.5"/>
+    <path d="M1170 132L1187 105H1205L1195 156Z" fill="#141920"/>
+    <path d="M1351 130L1373 106H1384L1365 154Z" fill="#141920"/>
+  </g>
+
+  <!-- Floor, plank and diffuser -->
+  <path d="M284 363L397 347H1110L1213 328L1284 333L1260 363L1124 377H377Z" fill="#090C11" stroke="#39414C" stroke-width="3"/>
+  <path d="M400 369H1122L1261 348L1246 382L1118 395H433Z" fill="url(#carbon)"/>
+  <path d="M1070 367L1229 349L1205 390L1095 394Z" fill="#05070A"/>
+  <path d="M1118 370L1190 360L1170 393M1168 362L1234 353L1206 385" fill="none" stroke="#414955" stroke-width="3"/>
+  <rect x="432" y="391" width="676" height="7" rx="3.5" fill="#D9A441" opacity=".8"/>
+
+  <!-- Main body / monocoque -->
+  <path d="M350 335
+           C445 319 523 289 607 261
+           C662 243 714 231 789 230
+           L943 235
+           C1034 239 1104 263 1160 302
+           L1197 333
+           L1128 366
+           L730 370
+           C633 370 557 360 472 356
+           L348 354Z"
+        fill="url(#bodyRed)" stroke="#FF7454" stroke-width="2"/>
+
+  <!-- Nose cone -->
+  <path d="M95 326L238 313L437 323L487 341L408 359L182 352L95 343Z" fill="url(#bodyRed)"/>
+  <path d="M100 334L300 332L407 341L338 350L101 344Z" fill="#141820" opacity=".72"/>
+  <path d="M229 315L357 289L529 287L487 328L420 334Z" fill="url(#bodyDark)" stroke="#3C444F" stroke-width="2"/>
+
+  <!-- Sidepod -->
+  <path d="M650 281
+           C711 257 809 253 922 269
+           L1044 303
+           C1007 323 976 345 951 367
+           H691
+           L626 341Z"
+        fill="url(#bodyDark)" stroke="#3A424D" stroke-width="3"/>
+  <path d="M697 291C758 271 841 272 924 285L984 303C957 313 937 328 918 346H706L660 330Z" fill="#070A0F"/>
+  <path d="M691 290C754 269 833 269 909 281" fill="none" stroke="#FF5540" stroke-width="5"/>
+  <path d="M707 297C766 282 835 282 892 291" fill="none" stroke="#59616D" stroke-width="2"/>
+  <path d="M752 350H936L910 367H731Z" fill="url(#bodyRed)"/>
+  <path d="M672 287L635 342L687 363L713 318Z" fill="#0A0D12"/>
+  <path d="M672 287L713 318L687 363" fill="none" stroke="#4A525E" stroke-width="2"/>
+
+  <!-- Engine cover and roll structure -->
+  <path d="M835 246
+           C865 213 902 186 948 174
+           C1008 159 1057 178 1105 221
+           L1150 294
+           C1071 264 1009 248 939 244Z"
+        fill="url(#bodyRed)"/>
+  <path d="M933 177C970 157 1008 157 1041 174L1060 199L1018 189L958 192Z" fill="#12161C"/>
+  <path d="M1010 181L1034 133H1067L1087 211" fill="none" stroke="#AAB2BC" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1010 181L1034 133H1067L1087 211" fill="none" stroke="#242A32" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="1040" y="110" width="21" height="28" rx="6" fill="#151A21" stroke="#78828D" stroke-width="2"/>
+  <path d="M1060 116L1100 98L1107 105L1061 129Z" fill="#12161C"/>
+
+  <!-- Cockpit opening -->
+  <path d="M732 239C769 197 812 173 867 170C907 169 938 183 963 207L930 247L803 263Z" fill="#07090D" stroke="#3B424C" stroke-width="3"/>
+  <path d="M772 229C798 196 828 181 863 181C886 181 904 187 921 201L906 224Z" fill="url(#glass)" opacity=".8"/>
+
+  <!-- Driver helmet -->
+  <path d="M819 190C817 158 836 136 866 133C895 131 918 150 921 178L910 200L855 202L829 193Z" fill="#F2F4F6" stroke="#232831" stroke-width="3"/>
+  <path d="M840 160C857 146 884 145 902 160L907 177L846 175Z" fill="#152331"/>
+  <path d="M846 162C864 151 883 151 899 161" fill="none" stroke="#7DE6FF" stroke-width="4" opacity=".75"/>
+  <path d="M826 183L854 192H912" fill="none" stroke="#FF453A" stroke-width="8"/>
+
+  <!-- Halo -->
+  <path d="M777 239L788 182C794 148 816 124 850 113
+           C891 100 938 116 958 150
+           L981 207M851 114L866 235"
+        fill="none" stroke="#D6DADE" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M777 239L788 182C794 148 816 124 850 113
+           C891 100 938 116 958 150
+           L981 207M851 114L866 235"
+        fill="none" stroke="#303640" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Front wing -->
+  <g>
+    <path d="M20 331H168L185 346H16Z" fill="url(#bodyDark)" stroke="#4A525D" stroke-width="2"/>
+    <path d="M6 351H192L179 368H12Z" fill="url(#bodyRed)"/>
+    <path d="M32 370H181L169 383H18Z" fill="#0B0E13" stroke="#343B45" stroke-width="2"/>
+    <path d="M64 318L72 381M152 318L157 377" fill="none" stroke="#262C34" stroke-width="7"/>
+    <path d="M18 325L27 304H39L35 365H16Z" fill="#12161C"/>
+    <path d="M171 326L184 306H194L191 366H176Z" fill="#12161C"/>
+  </g>
+
+  <!-- Suspension behind wheels -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M277 283L427 330M270 382L427 346M323 256L446 329M1085 277L1224 320M1088 365L1216 339M1120 264L1205 326"
+          stroke="#747E89" stroke-width="5"/>
+    <path d="M278 283L427 330M270 382L427 346M1085 277L1224 320M1088 365L1216 339"
+          stroke="#151920" stroke-width="2"/>
+    <path d="M334 290L370 359M1146 289L1171 365" stroke="#FF5941" stroke-width="5"/>
+  </g>
+
+  <!-- Wheels -->
+  <g id="front-wheel" transform="translate(282 350)">
+    <circle r="91" fill="url(#tire)" stroke="#050608" stroke-width="8"/>
+    <circle r="67" fill="none" stroke="#3E4651" stroke-width="3"/>
+    <circle r="47" fill="url(#rim)" stroke="#ADB5BF" stroke-width="3"/>
+    <circle r="34" fill="#242A32" stroke="#616A75" stroke-width="3"/>
+    <circle r="25" fill="#B54231" opacity=".9"/>
+    <g stroke="#AEB6BF" stroke-width="5">
+      <path d="M0-43V-16M37-22L14-8M37 22L14 8M0 43V16M-37 22L-14 8M-37-22L-14-8"/>
+    </g>
+    <circle r="10" fill="#11151B" stroke="#DFE3E7" stroke-width="3"/>
+    <path d="M-60-54A81 81 0 0 1 58-55" fill="none" stroke="#59616B" stroke-width="4" opacity=".6"/>
+  </g>
+
+  <g id="rear-wheel" transform="translate(1172 348)">
+    <circle r="102" fill="url(#tire)" stroke="#050608" stroke-width="9"/>
+    <circle r="75" fill="none" stroke="#3E4651" stroke-width="3"/>
+    <circle r="52" fill="url(#rim)" stroke="#ADB5BF" stroke-width="3"/>
+    <circle r="38" fill="#242A32" stroke="#616A75" stroke-width="3"/>
+    <circle r="28" fill="#B54231" opacity=".9"/>
+    <g stroke="#AEB6BF" stroke-width="5">
+      <path d="M0-48V-18M42-24L16-9M42 24L16 9M0 48V18M-42 24L-16 9M-42-24L-16-9"/>
+    </g>
+    <circle r="11" fill="#11151B" stroke="#DFE3E7" stroke-width="3"/>
+    <path d="M-68-61A92 92 0 0 1 66-62" fill="none" stroke="#59616B" stroke-width="4" opacity=".6"/>
+  </g>
+
+  <!-- Wheel tethers and aero details -->
+  <path d="M358 326L420 333M1097 322L1123 331" fill="none" stroke="#FF7A3D" stroke-width="3" stroke-dasharray="8 7"/>
+  <path d="M479 351C554 337 606 311 651 281" fill="none" stroke="#FFB087" stroke-width="2.5" opacity=".7"/>
+  <path d="M975 278C1051 280 1107 297 1154 327" fill="none" stroke="#FFB087" stroke-width="2.5" opacity=".55"/>
+
+  <!-- Number and small graphic details -->
+  <g transform="translate(526 292) skewX(-12)">
+    <rect width="84" height="55" rx="10" fill="#F7F8FA"/>
+    <text x="42" y="40" text-anchor="middle" fill="#11151B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="38" font-weight="850">06</text>
+  </g>
+  <path d="M469 331L520 319" stroke="#FFFFFF" stroke-width="4" opacity=".8"/>
+  <path d="M613 302L646 291" stroke="#FFFFFF" stroke-width="4" opacity=".8"/>
+  <text x="998" y="226" fill="#FFFFFF" opacity=".9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="800" letter-spacing="2">CMM</text>
+
+  <!-- Highlights -->
+  <path d="M351 334C453 316 530 286 608 261C670 241 722 232 789 231"
+        fill="none" stroke="#FFFFFF" stroke-width="3" opacity=".36"/>
+  <path d="M843 246C880 207 922 184 963 176" fill="none" stroke="#FFFFFF" stroke-width="3" opacity=".28"/>
+</svg>
