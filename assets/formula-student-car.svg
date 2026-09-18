@@ -185,7 +185,7 @@
   <!-- Number and small graphic details -->
   <g transform="translate(526 292) skewX(-12)">
     <rect width="84" height="55" rx="10" fill="#F7F8FA"/>
-    <text x="42" y="40" text-anchor="middle" fill="#11151B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="38" font-weight="850">06</text>
+    <text x="42" y="40" text-anchor="middle" fill="#11151B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="38" font-weight="850">05</text>
   </g>
   <path d="M469 331L520 319" stroke="#FFFFFF" stroke-width="4" opacity=".8"/>
   <path d="M613 302L646 291" stroke="#FFFFFF" stroke-width="4" opacity=".8"/>
