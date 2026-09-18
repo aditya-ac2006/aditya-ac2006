@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Aditya Choudhury profile banner</title>
+  <desc id="desc">A minimal dark banner with an abstract Formula car line and warm red gradient.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08090C"/>
+      <stop offset=".55" stop-color="#0D1015"/>
+      <stop offset="1" stop-color="#151820"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF3347"/>
+      <stop offset=".55" stop-color="#FF5A36"/>
+      <stop offset="1" stop-color="#FF8A3D"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".76" cy=".44" r=".62">
+      <stop offset="0" stop-color="#FF4D38" stop-opacity=".22"/>
+      <stop offset=".5" stop-color="#FF4D38" stop-opacity=".05"/>
+      <stop offset="1" stop-color="#FF4D38" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="26"/></filter>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clip"><rect width="1200" height="300" rx="28"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="300" fill="url(#background)"/>
+    <rect width="1200" height="300" fill="url(#glow)"/>
+    <circle cx="1020" cy="45" r="150" fill="#FF4938" opacity=".1" filter="url(#blur)"/>
+    <path d="M0 263C244 240 398 281 578 253C764 224 891 181 1200 200V300H0Z" fill="#FFFFFF" opacity=".018"/>
+    <path d="M0 278C245 249 448 291 658 248C858 207 1016 190 1200 205" fill="none" stroke="url(#accent)" stroke-width="3" opacity=".65"/>
+    <rect x="65" y="48" width="32" height="4" rx="2" fill="url(#accent)"/>
+    <text x="65" y="78" fill="#7E8794" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2.6">ADITYA / 2006</text>
+    <text x="65" y="150" fill="#F7F8FA" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="54" font-weight="750" letter-spacing="-.8">Aditya Choudhury</text>
+    <text x="67" y="187" fill="#A4ACB8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="500" letter-spacing=".45">Software engineering · vehicle dynamics · quantitative systems</text>
+    <text x="67" y="231" fill="#68717E" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="1.7">BUILDING SYSTEMS THAT MOVE FROM DATA TO DECISIONS</text>
+
+    <g transform="translate(710 68)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M24 125H78L118 91L206 78L263 44L345 54L389 91H455" stroke="#68717E" stroke-width="2.2" opacity=".48"/>
+      <path d="M89 125C104 91 135 67 177 62L256 56C287 54 312 63 333 81L368 111" stroke="#E9EDF2" stroke-width="3"/>
+      <path d="M162 63L194 28H264L290 60M197 28L212 7H250L263 28" stroke="#E9EDF2" stroke-width="3"/>
+      <path d="M124 87H71L44 103H17M331 82H404L438 103H473" stroke="url(#accent)" stroke-width="4" filter="url(#softGlow)"/>
+      <path d="M160 125H306" stroke="#E9EDF2" stroke-width="3"/>
+      <circle cx="122" cy="125" r="37" stroke="#E9EDF2" stroke-width="3"/>
+      <circle cx="122" cy="125" r="17" stroke="#68717E" stroke-width="2"/>
+      <circle cx="352" cy="125" r="37" stroke="#E9EDF2" stroke-width="3"/>
+      <circle cx="352" cy="125" r="17" stroke="#68717E" stroke-width="2"/>
+      <path d="M93 147H42M381 147H432" stroke="#68717E" stroke-width="2" opacity=".45"/>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1198" height="298" rx="27" fill="none" stroke="#242A33" stroke-width="2"/>
+</svg>

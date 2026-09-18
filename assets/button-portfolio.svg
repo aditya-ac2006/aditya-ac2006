@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="190" height="54" viewBox="0 0 190 54" role="img" aria-label="Portfolio coming soon">
+  <rect x="1" y="1" width="188" height="52" rx="15" fill="#11151B" stroke="#303743" stroke-width="2"/>
+  <rect x="18" y="16" width="10" height="10" rx="3" fill="#FF5141"/>
+  <rect x="31" y="16" width="10" height="10" rx="3" fill="#29303A"/>
+  <rect x="18" y="29" width="10" height="10" rx="3" fill="#29303A"/>
+  <rect x="31" y="29" width="10" height="10" rx="3" fill="#FF7A3D"/>
+  <text x="56" y="27" fill="#F4F6F8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">Portfolio</text>
+  <text x="56" y="41" fill="#737D8B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="9" font-weight="650" letter-spacing=".8">COMING SOON</text>
+</svg>

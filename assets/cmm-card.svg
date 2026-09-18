@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="238" viewBox="0 0 1000 238" role="img" aria-labelledby="title desc">
+  <title id="title">CMM featured project</title>
+  <desc id="desc">A minimal project card for a Formula Student tire modelling and vehicle dynamics pipeline.</desc>
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101318"/>
+      <stop offset="1" stop-color="#0B0D11"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF3347"/>
+      <stop offset="1" stop-color="#FF7A3D"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="1" cy="0" r="1">
+      <stop offset="0" stop-color="#FF4B38" stop-opacity=".17"/>
+      <stop offset=".8" stop-color="#FF4B38" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="1" y="1" width="998" height="236" rx="24" fill="url(#card)" stroke="#292F39" stroke-width="2"/>
+  <rect x="1" y="1" width="998" height="236" rx="24" fill="url(#halo)"/>
+  <rect x="0" y="28" width="5" height="182" rx="2.5" fill="url(#accent)"/>
+  <text x="45" y="48" fill="#FF6250" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="750" letter-spacing="2.1">FEATURED PROJECT</text>
+  <text x="45" y="93" fill="#F7F8FA" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="750">CMM</text>
+  <text x="170" y="92" fill="#7C8592" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="550">Tire modelling &amp; vehicle dynamics</text>
+  <text x="45" y="132" fill="#A8B0BC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">A MATLAB pipeline that turns tire-test data into validated models</text>
+  <text x="45" y="156" fill="#A8B0BC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">for Formula Student vehicle simulation.</text>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="650">
+    <rect x="45" y="184" width="82" height="29" rx="14.5" fill="#1A1E25"/>
+    <text x="64" y="203" fill="#CAD0D8">MATLAB</text>
+    <rect x="137" y="184" width="132" height="29" rx="14.5" fill="#1A1E25"/>
+    <text x="156" y="203" fill="#CAD0D8">TIRE MODELLING</text>
+    <rect x="279" y="184" width="119" height="29" rx="14.5" fill="#1A1E25"/>
+    <text x="298" y="203" fill="#CAD0D8">VALIDATION</text>
+  </g>
+  <g transform="translate(835 82)">
+    <rect width="120" height="48" rx="15" fill="url(#accent)"/>
+    <text x="24" y="30" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="750">Explore</text>
+    <path d="M85 16L97 24L85 32M96 24H76" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
