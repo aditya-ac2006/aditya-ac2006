@@ -64,8 +64,8 @@ I'm open to conversations around software engineering, fintech, Formula Student,
 
 <div align="center">
 
-<a href="YOUR_LINKEDIN_URL"><img src="./assets/button-linkedin.svg" height="48" alt="Connect on LinkedIn"></a>&nbsp;
-<a href="mailto:YOUR_EMAIL_ADDRESS"><img src="./assets/button-email.svg" height="48" alt="Send me an email"></a>
+<a href="www.linkedin.com/in/ac06"><img src="./assets/button-linkedin.svg" height="48" alt="Connect on LinkedIn"></a>&nbsp;
+<a href="mailto:aditya.ac2006@gmail.com"><img src="./assets/button-email.svg" height="48" alt="Send me an email"></a>
 
 <br><br>
 
